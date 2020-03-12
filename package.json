@@ -1,0 +1,25 @@
+{
+  "name": "webpack-image-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server src/index.js -o public/main.js --contentBase=public --port=9000 --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skruban/webpack-image-setup.git"
+  },
+  "author": "skruban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skruban/webpack-image-setup/issues"
+  },
+  "homepage": "https://github.com/skruban/webpack-image-setup#readme",
+  "devDependencies": {
+    "file-loader": "^3.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
